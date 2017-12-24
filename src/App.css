@@ -1,0 +1,85 @@
+.App {
+ 
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  
+  width: 100%;
+  height: -webkit-fill-available;
+}
+
+.AppContent{
+  padding: 56px 14px 15px;
+  position: relative;
+}
+
+.wrapper {
+  padding-bottom: 0;
+  width: 100%;
+  height: -webkit-fill-available;
+}
+
+.wrapper, .wrapper-narrow, .wrapper-permalink {
+  margin: 0 auto;
+  min-height: 0;
+  padding: 56px 14px 15px;
+  position: relative;
+  width: 890px;
+}
+.ProfilStatsCard {
+  color: #657786;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .02em;
+  line-height: 16px;
+  overflow: hidden;
+  transition: color .15s ease-in-out;
+  display: block!important;
+  text-align: left
+}
+.ProfileCardStatsstatValue {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  transition: color .15s ease-in-out;
+  text-align: left;
+  line-height: 18px;
+}
+
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
