@@ -1,9 +1,8 @@
 import React from 'react';
-import IconButton from 'material-ui/IconButton';
 import ActionHome from 'material-ui/svg-icons/action/home';
 import FlatButton from 'material-ui/FlatButton';
-import FontIcon from 'material-ui/FontIcon';
-import {red500, yellow500, blue500, blue900} from 'material-ui/styles/colors'; 
+
+import { blue900} from 'material-ui/styles/colors'; 
 import NotificationsIcon from 'material-ui/svg-icons/social/notifications';  
 import CommunicationEmail from 'material-ui/svg-icons/communication/email';
 import Avatar from 'material-ui/Avatar'; 

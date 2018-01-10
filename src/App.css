@@ -7,6 +7,48 @@
   height: -webkit-fill-available;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-left{
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: fit-content;
+  justify-content:space-around;
+}
+
+.dashboard-centre{
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  height: fit-content;
+  justify-content: space-around;
+
+}
+
+.dashboard-right{
+  display: flex;
+  float: left;
+  flex-direction: column;
+  width: 200px;
+  height: fit-content;
+  justify-content: space-around;
+
+}
+
+.trendcard{
+  position: relative;
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-clip: inherit;
+    border: 1px solid #e6ecf0;
+    line-height: inherit;
+    padding: 15px;
+}
+
 .AppContent{
   padding: 56px 14px 15px;
   position: relative;
