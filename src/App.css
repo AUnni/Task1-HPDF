@@ -10,6 +10,12 @@
 .container{
   display: flex;
   justify-content: center;
+
+}
+
+.TwitterFeed{
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .dashboard-left{
@@ -17,13 +23,14 @@
   flex-direction: column;
   width: 290px;
   height: fit-content;
+  
   justify-content:space-around;
 }
 
 .dashboard-centre{
   display: flex;
   flex-direction: column;
-  width: 540px;
+  width: 580px;
   height: fit-content;
   justify-content: space-around;
 

@@ -9,6 +9,8 @@ import GridListExampleSimple from './Grid'
 import Trendcards from './Trendcard'
 import AppBar from './Appbar'
 import FollowMenu from './FollowCard'
+import TweetFeed from './TweetFeed'
+import TermsPaper from './Terms'
 
 class App extends Component {
   render() {
@@ -16,8 +18,6 @@ class App extends Component {
      
       <MuiThemeProvider>
       <div className="App">
-      
-
         <div id="kb-shortcuts-msg" className="visuallyhidden">
         <h2>Keyboard Shortcuts</h2>
         <p>
@@ -41,17 +41,16 @@ class App extends Component {
           <div class="dashboard-left">
           <Profilecard/>
           <br/>
-          
-          
+                   
           <Trendcards/>
 
           </div>
           <div class="dashboard-centre">
-                    
+              
           <AppBar/>
           <br/>
 
-          <GridListExampleSimple/>
+          <TweetFeed/>
           <br/>
 
           
@@ -60,18 +59,8 @@ class App extends Component {
           <div class="dashboard-right">
           
           <FollowMenu/>
-          <form action="/your-server-side-code" method="POST">
-              <script
-              src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-              data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
-              data-amount="2000"
-              data-name="Stripe.com"
-              data-description="2 widgets"
-              data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-              data-locale="auto"
-              data-zip-code="true">
-            </script>
-            </form>
+          <TermsPaper/>
+         
           </div>
 
           

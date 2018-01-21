@@ -18,7 +18,7 @@ const style = {
 
   const searchStyle = {
     float       : 'none', 
-    width       : '300px',
+    width       : '400px',
     marginLeft  : 'auto',
     marginRight : 'auto'
   }
@@ -41,6 +41,7 @@ export default class Topbar extends React.Component {
         <ToolbarTitle text="" />
         
         <HomeButton/>
+        <img src="/Twitter_Logo_Blue.png" width="30" height="30"  alt = "Twitter icon"/>
         </ToolbarGroup>
 
         <ToolbarGroup style={searchStyle} > 
@@ -49,7 +50,7 @@ export default class Topbar extends React.Component {
         onRequestSearch={() => console.log('onRequestSearch')}
         style={{
         margin: '0',
-        maxWidth: 400,
+        maxWidth: 600,
         innerHeight: 40,
         }}
         />
