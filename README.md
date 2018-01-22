@@ -21,17 +21,9 @@ npm install
 
 npm start
 
-The Twitter main time line will be rendered at http://localhost:3000/ in your browser. Currently the Top Bar with navigation buttons, search bar, account circle, Tweet button and User Profile card are ready.
+The Twitter main time line will be rendered at http://localhost:3000/ in your browser. 
 
 To be done
-
-Trending topics card
-
-User Feed display grid
-
-Who to follow section
-
-Advertise with Twitter section
 
 Aadhaar search page.
 

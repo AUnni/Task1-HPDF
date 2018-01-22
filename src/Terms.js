@@ -2,6 +2,7 @@ import React from 'react';
 import Paper from 'material-ui/Paper';
 import {blue300,indigo900,grey400, darkBlack, lightBlack, blue900, blue400, blue500, blue800,} from 'material-ui/styles/colors';
 import Divider from 'material-ui/Divider';
+
 const style = {
     display: 'flex',
     float: 'left',
